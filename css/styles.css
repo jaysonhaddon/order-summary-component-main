@@ -1,0 +1,136 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    margin: 200px 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 1.65rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+a:hover {
+    color: hsla(245, 75%, 52%, 75%);
+}
+
+.design {
+    height: 70%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.main-card {
+    background-color: white;
+    border-radius: 5%;
+    margin: 100px auto;
+    width: 28%;
+    min-width: 350px;
+    height: 70%;
+}
+
+.hero-image {
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.card-details {
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+    width: 75%;
+}
+
+.card-price {
+    background-color: hsla(225, 100%, 94%, 50%);
+    border-radius: 10px;
+    height: 60px;
+    margin: auto;
+    padding: 10px 10px 15px 20px;
+    text-align: left;
+    width: 75%; 
+}
+
+.card-price .price-text, a{
+    display: inline-block;
+}
+
+.price-text {
+    line-height: .5;
+    margin-right: 30%;
+    vertical-align: middle;
+}
+
+@media (max-width: 1300px) {
+    .price-text {
+        margin-right: 20%;
+    }
+}
+
+.music-icon {
+    vertical-align: middle;
+    margin-right: 3%;
+}
+
+.order-button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px hsl(224, 23%, 55%);
+    color: white;
+    display: block;   
+    font-weight: 900;
+    height: 45px;
+    margin: 30px auto;
+    padding: 5px;
+    width: 85%;
+}
+
+.order-button:hover {
+    background-color: hsla(245, 75%, 52%, 75%);
+    cursor: pointer;
+}
+
+.card-cancel {
+    color: hsl(224, 23%, 55%);
+    display: block;
+    font-size: .9rem;
+    font-weight: 900;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card-cancel:hover {
+    color: black;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
